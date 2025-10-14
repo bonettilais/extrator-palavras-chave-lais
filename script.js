@@ -1,0 +1,1 @@
+const botaoMostraPalavras = document.querySelectorAll("#botao-palavra");
