@@ -3,7 +3,77 @@ const botaoMostraPalavras = document.querySelectorAll("#botao-palavra");
 botaoMostraPalavras.addEventListener("click", mostraPalavrasChave);
 
 function mostraPalavrasChave(){
-    alert("Fui clicado!");
+    const texto = document.querySelector("#entrada-de-texto").ariaValueMax;
+    const campoResultado = document.querySelector("#resultado-palavrachave");
+    const palavras = texto.split(" ");
+
+    campoResultado.textContent = palavras.join(", ")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
