@@ -43,7 +43,7 @@ function contaFrequencias(palavras) {
     }
 
 
-    return requencias;
+    return frequencias;
 }
 
 function tiraPalavrasRuins(palavras) {
