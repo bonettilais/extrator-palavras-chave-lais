@@ -27,6 +27,7 @@ function processaTexto(texto) {
     return ordenadas.slice(0, 10);
 }
 
+
 function contaFrequencias(palavras) {
 
     let frequencias = {};
@@ -41,16 +42,16 @@ function contaFrequencias(palavras) {
         }
     }
 
-    
-    return palavras;
+
+    return requencias;
 }
 
-function tiraPalavrasRuins(palavras){
-    const PALAVRAS_RUINS = new Set(["para", "nós", "das", "como", "que","eles", "elas", "onde", "porque", "quando", "a", "o"])
+function tiraPalavrasRuins(palavras) {
+    const PALAVRAS_RUINS = new Set(["para", "nós", "das", "como", "que", "eles", "elas", "onde", "porque", "quando", "a", "o"])
     const palavrasBoas = [];
 
-    for (let palavra of palavras){
-        if (!PALAVRAS_RUINS.has (palavra)&& palavra.length > 2){
+    for (let palavra of palavras) {
+        if (!PALAVRAS_RUINS.has(palavra) && palavra.length > 2) {
             palavrasBoas.push(palavra);
         }
     }
